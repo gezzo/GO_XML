@@ -1,0 +1,18 @@
+Greetings: "Hello"
+Pourpose: "This is a test"
+Persons:
+  Person1:
+    Name: "John"
+    FamilyName: "Doe"
+    Gender: "Male"
+    Age: 17
+  Person2:
+    Name: "Sarah"
+    FamilyName: "Connor"
+    Gender: "Female"
+    Age: 45
+  Person3:
+    Name: "Darth"
+    FamilyName: "Vader"
+    Gender: "Male"
+    Age: 100

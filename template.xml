@@ -1,0 +1,19 @@
+<Root>
+    <Greetings> {{ .Greetings }}</Greetings>
+    <Pourpose>{{ .Pourpose}}</Pourpose>
+    <Persons>
+        {{- range $personID, $person := .Persons }}
+        <Person>
+            <ID>{{ $personID }}</ID>
+            <Name>{{ $person.Name }}</Name>
+            <FamilyName>{{ $person.FamilyName }}</FamilyName>
+            <Gender>{{ $person.Gender }}</Gender>
+            {{- if (lt $person.Age 18)}}
+            <Age>The person is under age</Age>
+            {{- else}}
+            <Age>{{ $person.Age }}</Age>
+            {{- end}}
+        </Person>
+        {{- end }}
+    </Persons>
+</Root>
