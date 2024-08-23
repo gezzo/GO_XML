@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<start>
+    <feature1>
+        <node1 id="{{.Element1}}">
+            <node2 id="{{.Element3}}">
+                <node3>
+                {{.Element3}}
+                </node3>
+            </node2>
+        </node1>
+    </feature1>    
+    <feature2>
+        {{- if .Element4}} 
+        <node4> {{.Element4}} 
+        </node4>
+        {{- end}} 
+        {{- if .Element5}}
+        <node5>
+            {{.Element5}}
+        </node5>
+        {{- end}} 
+    </feature2>
+</start>

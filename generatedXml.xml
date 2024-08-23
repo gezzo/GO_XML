@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<start>
+    <feature1>
+        <node1 id="value1">
+            <node2 id="value3">
+                <node3>
+                value3
+                </node3>
+            </node2>
+        </node1>
+    </feature1>    
+    <feature2>
+        <node5>
+            value5
+        </node5> 
+    </feature2>
+</start>
